@@ -1,4 +1,4 @@
-package hw2javaVariablesInitialized;
+package hw3JavaVariablesDeclared;
 
 public class AboutMe3Test {
 

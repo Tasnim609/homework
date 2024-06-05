@@ -33,8 +33,8 @@ public class Student {
 		this.stName = stName;
 		this.stId = stId;
 		this.stGender = stGender;
-		System.out.println("\tStudent name: " + stName + "\n\tStudent Id: " + stId + "\n\tStudent gender: " + stGender
-				+ "\n\tStudent programmer: " + isProgrammer);
+		System.out.println(", Student name: " + stName + ", Student Id: " + stId + ", Student gender: " + stGender
+				+ ", Student programmer: " + isProgrammer);
 
 	}
 
@@ -47,15 +47,15 @@ public class Student {
 		this.stGender = stGender;
 		this.isProgrammer = isProgrammer;
 		this.stGrade = stGrade;
-		System.out.println("\t Student Id: " + stId + "\n\tStudent name: " + stName + "\n\t Student gender: " + stGender
-				+ "\n\t Student programmeer: " + isProgrammer + "\n\tStudent grade: " + stGrade);
+		System.out.println(",  Student Id: " + stId + " Student name: " + stName + ",  Student gender: " + stGender
+				+ ",  Student programmeer: " + isProgrammer + ", Student grade: " + stGrade);
 	}
 
 	// we can change Parameter name from variable name
 	public Student(String name, int studentId) {
 		this.stName = name;
 		this.stId = studentId;
-		System.out.println("\t Student Id: " + studentId + "\n\tStudent name: " + name);
+		System.out.println(",  Student Id: " + studentId + ", Student name: " + name);
 	}
 
 }

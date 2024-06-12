@@ -3,7 +3,7 @@ package hw3JavaVariablesDeclared;
 public class AboutMe3 {
 	// Variable Declare
 	public String myNameString;
-	// Variable Declare
+	// Variable initialize
 	public String myName = "Tasnim";
 	public byte myAge = 100;
 	public short myApt = 609;

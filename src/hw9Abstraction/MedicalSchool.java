@@ -1,6 +1,7 @@
 package hw9Abstraction;
 
-public abstract class MedicalSchool implements University,VocationalSchool{
+
+public abstract class MedicalSchool extends NursingSchool implements LawSchool{
 	//abstract class or regular class can not inherit more then one regular or abstract class
 	//only one regular or abstract class we can inherit by extends keywords
 //abstract class or regular class can inherit more than one interface by implements keyword
@@ -23,6 +24,5 @@ public abstract class MedicalSchool implements University,VocationalSchool{
 		System.out.println("This is non abstract method of Medical class");
 	}
 }
-
 
 

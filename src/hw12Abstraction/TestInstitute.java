@@ -20,8 +20,27 @@ public class TestInstitute {
 		columbiaUniversity.vocationalInfo();
 		columbiaUniversity.lawInfo();
 		columbiaUniversity.hygenic();
+		//columbiaUniversity
 
-//MedicalSchool medicalSchool=new MedicalSchool();
+MedicalSchool medicalSchool=new ColumbiaUniversity();
+medicalSchool.macanicalLab();
+medicalSchool.anatomyLab();
+medicalSchool.biochemistryLab();
+
+University university=new ColumbiaUniversity();
+university.classSize();
+university.gymnasium();
+University.library();
+
+RockefellerUniversity rockefellerUniversity=new RockefellerUniversity();
+rockefellerUniversity.aronaticalInfo();
+rockefellerUniversity.macanicalLab();
+rockefellerUniversity.maths();
+
+
+EngineeringSchool engineeringSchool=new RockefellerUniversity();
+engineeringSchool.computerLab();
+engineeringSchool.macanicalLab();
 
 	}
 }

@@ -5,4 +5,6 @@ public class RockefellerUniversity {
 	public void maths() {
 		System.out.println("This is the non abstract method of RockefelellerUnicersity class");
 	}
+
+	
 }

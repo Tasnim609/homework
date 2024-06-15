@@ -1,5 +1,9 @@
 package hw12Abstraction;
 
+
+
+
+
 public abstract class MedicalSchool extends NursingSchool implements LawSchool{
 	//abstract class or regular class can not inherit more then one regular or abstract class
 	//only one regular or abstract class we can inherit by extends keywords

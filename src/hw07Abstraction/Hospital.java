@@ -1,6 +1,5 @@
 package hw07Abstraction;
 
-import javax.swing.DefaultBoundedRangeModel;
 
 public interface Hospital {
 	// if we want ,we can write the (abstract word) in the method declare

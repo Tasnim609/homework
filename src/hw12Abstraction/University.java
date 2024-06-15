@@ -16,6 +16,12 @@ public interface University extends College,Hospital{
 	public void playGround();
 
 	public void teacher();
+	public void gymnasium();
+	
+	public static void library() {
+		System.out.println("static type void implement in the University interface");
+		
+	}
 
 }
 

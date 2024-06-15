@@ -8,13 +8,11 @@ public class RockefellerUniversity extends EngineeringSchool implements Aronatic
 
 	@Override
 	public void macanicalLab() {
-		// TODO Auto-generated method stub
-		
+System.out.println("this is macanicallab method from EngineeringSchool class");		
 	}
 
 	@Override
 	public void aronaticalInfo() {
-		// TODO Auto-generated method stub
-		
+System.out.println("this is aronaticalInfo method from AronaticalSchool class");		
 	}
 }

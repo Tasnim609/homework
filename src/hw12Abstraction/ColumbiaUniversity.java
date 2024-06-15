@@ -20,83 +20,81 @@ public class ColumbiaUniversity extends MedicalSchool implements University,Voca
 		System.out.println("This is the non abstract meothod meothod of ColumbiaUniversity class");
 	}
 
-	@Override
-	public void anatomyLab() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void commonRoom() {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 	@Override
 	public void laboratory() {
-		// TODO Auto-generated method stub
-		
+System.out.println("This is laboratory method from College interface");		
 	}
 
 	@Override
 	public void languageClub() {
-		// TODO Auto-generated method stub
-		
+System.out.println("This is languageClub method from College interface");		
 	}
 
 	@Override
 	public void emergencyRoom() {
-		// TODO Auto-generated method stub
-		
+System.out.println("This is emergencyRoom method from Hospital inteerface");		
 	}
 
 	@Override
 	public void surgeryRoom() {
-		// TODO Auto-generated method stub
-		
+System.out.println("This is surgeryRoom method from Hospital interface");		
 	}
 
 	@Override
 	public void cafeteria() {
-		// TODO Auto-generated method stub
-		
+System.out.println("This is cafeteria method from Hospital interface");		
+	}
+
+	
+
+	@Override
+	public void vocationalInfo() {
+System.out.println("this is vocationalInfo method from vocationalSchool interface");		
 	}
 
 	@Override
 	public void classSize() {
-		// TODO Auto-generated method stub
-		
+System.out.println("this is classSize method from University interface");		
 	}
 
 	@Override
 	public void playGround() {
-		// TODO Auto-generated method stub
-		
+System.out.println("this is playGround method from University interface");		
 	}
 
 	@Override
 	public void teacher() {
-		// TODO Auto-generated method stub
-		
+System.out.println("this is teacher method from University interface");		
 	}
 
 	@Override
-	public void vocationalInfo() {
-		// TODO Auto-generated method stub
-		
+	public void gymnasium() {
+System.out.println("this is gymnasium method from University interface");		
+	}
+
+	@Override
+	public void anatomyLab() {
+System.out.println("this is anatomyLab method from MedicalSchool class");		
 	}
 
 	@Override
 	public void lawInfo() {
-		// TODO Auto-generated method stub
-		
+System.out.println("this is lawInfo method from LowSchool interface");		
 	}
 
 	@Override
 	public void hygenic() {
-		// TODO Auto-generated method stub
-		
+System.out.println("this is hygenic method from Nursing class");		
 	}
+
+	@Override
+	public void commonRoom() {
+System.out.println("this is commonRoom method from College interface");		
+	}
+
+	
 }
 
 

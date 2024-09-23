@@ -14,7 +14,7 @@ public class MySelf { // class name start with upper case and it can be camel ca
  */
 		//if we want to copy any line ,at first we have to put the at the end of the line,
 		//then=command/control +alt/option+up/down arrow.
-		
+		//update
 	}
 }
 //if we want to move a line =select+alt/option+up/down arrow
